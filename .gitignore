@@ -1,0 +1,15 @@
+# Docker artifacts
+**/sha256*
+extracting
+exporting
+naming
+resolve
+transferring
+unpacking
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node / temp (future-proof)
+node_modules/
