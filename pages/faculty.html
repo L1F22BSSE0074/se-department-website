@@ -3,65 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Courses - CS Department</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <title>Faculty | Software Engineering Department</title>
+
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #eef2f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0b3c5d;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 35px;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #0b3c5d;
+            margin-top: 30px;
+        }
+
+        p {
+            color: #333;
+            line-height: 1.7;
+        }
+
+        .faculty-member {
+            background: #f0f6fb;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 5px solid #0b3c5d;
+            border-radius: 6px;
+        }
+
+        .faculty-member h3 {
+            margin: 0 0 10px 0;
+            color: #0b3c5d;
+        }
+
+        .faculty-member p {
+            margin: 4px 0;
+        }
+    </style>
 </head>
 <body>
-    <!-- Header / Navigation -->
-    <header>
-        <h1>Computer Science Department</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="courses.html" class="active">Courses</a></li>
-                <li><a href="faculty.html">Faculty</a></li>
-                <li><a href="admissions.html">Admissions</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <!-- Main Content -->
-    <main>
-        <h2>Our Courses</h2>
-        <p>Welcome! Here is a list of courses offered by the Computer Science Department.</p>
+<header>
+    <h1>Department of Software Engineering</h1>
+    <p>Faculty</p>
+</header>
 
-        <section class="course-list">
-            <article class="course">
-                <h3>Introduction to Programming</h3>
-                <p>Learn the basics of programming using Python. Covers variables, loops, functions, and basic algorithms.</p>
-                <p><strong>Semester:</strong> Fall & Spring</p>
-            </article>
+<div class="container">
 
-            <article class="course">
-                <h3>Data Structures and Algorithms</h3>
-                <p>Understand arrays, linked lists, trees, graphs, and sorting/searching algorithms. Hands-on coding exercises included.</p>
-                <p><strong>Semester:</strong> Spring</p>
-            </article>
+    <h2>Our Faculty Members</h2>
 
-            <article class="course">
-                <h3>Database Systems</h3>
-                <p>Learn relational databases, SQL, normalization, and basic database design concepts.</p>
-                <p><strong>Semester:</strong> Fall</p>
-            </article>
+    <div class="faculty-member">
+        <h3>Dr. Alice Johnson</h3>
+        <p><strong>Designation:</strong> Professor</p>
+        <p><strong>Specialization:</strong> Artificial Intelligence</p>
+        <p><strong>Office Hours:</strong> Mon/Wed 10:00–12:00</p>
+    </div>
 
-            <article class="course">
-                <h3>Web Development</h3>
-                <p>Introduction to HTML, CSS, JavaScript, and building static & dynamic web pages.</p>
-                <p><strong>Semester:</strong> Fall & Spring</p>
-            </article>
+    <div class="faculty-member">
+        <h3>Dr. Bob Smith</h3>
+        <p><strong>Designation:</strong> Associate Professor</p>
+        <p><strong>Specialization:</strong> Data Structures & Algorithms</p>
+        <p><strong>Office Hours:</strong> Tue/Thu 14:00–16:00</p>
+    </div>
 
-            <article class="course">
-                <h3>Operating Systems</h3>
-                <p>Study processes, threads, memory management, and basic OS concepts.</p>
-                <p><strong>Semester:</strong> Spring</p>
-            </article>
-        </section>
-    </main>
+    <div class="faculty-member">
+        <h3>Dr. Carol Lee</h3>
+        <p><strong>Designation:</strong> Assistant Professor</p>
+        <p><strong>Specialization:</strong> Databases & Big Data</p>
+        <p><strong>Office Hours:</strong> Mon/Wed 13:00–15:00</p>
+    </div>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 Computer Science Department. All rights reserved.</p>
-    </footer>
+    <div class="faculty-member">
+        <h3>Dr. David Kim</h3>
+        <p><strong>Designation:</strong> Lecturer</p>
+        <p><strong>Specialization:</strong> Web Development & Programming</p>
+        <p><strong>Office Hours:</strong> Tue/Thu 10:00–12:00</p>
+    </div>
+
+</div>
+
 </body>
 </html>
